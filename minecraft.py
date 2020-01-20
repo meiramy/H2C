@@ -1,0 +1,16 @@
+print('Minecraft Portal Calculator.')
+print('From Nether to Overworld.')
+print()
+print('Please input Nether coordinates.')
+
+x = input('X: ')
+y = input('Y: ')
+z = input('Z: ')
+
+x = int(x)
+z = int(z)
+print()
+print('The Overworld counterpart is at the coordinates:')
+print('X: ',x * 8)
+print('Y: ',y)
+print('Z: ',z * 8)
